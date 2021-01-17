@@ -12,20 +12,6 @@ file_path_textenc  = log_path + file_name_textenc
 
 # Abrir y leer log.txt
 
-"""
-f = open(file_path, "r")
-contenido_txt_logs = f.read()
-print(contenido_txt_logs)
-
-resultado = re.search(r"Epoch\s(\d+)\sLoss\s(\d+.\d+)", contenido_txt_logs)
-numEpoch = resultado.group(1)
-valLoss  = resultado.group(2)
-print("numEpoch: %s -- numEpoch: %s\n" %(numEpoch, valLoss))
-"""
-
-
-
-
 def filtro_expreg_loss(txt_path):
 
     #totalEpochs = 60  # cantidad total de epochs
